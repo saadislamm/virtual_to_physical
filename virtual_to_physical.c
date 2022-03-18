@@ -37,6 +37,6 @@ void main() {
 	printf("\nVirtual address of a: %p \n", &a);
 	printf("Virtual address of b: %p \n\n", &b);
 	
-	printf("Physical address: %lx \n", get_physical_addr((uint64_t)&a));
-	printf("Physical address: %lx \n\n", get_physical_addr((uint64_t)&b));
+	printf("Physical address of a: %lx \n", get_physical_addr((uint64_t)&a));
+	printf("Physical address of b: %lx \n\n", get_physical_addr((uint64_t)&b));
 }
